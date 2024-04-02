@@ -1,0 +1,6 @@
+UPDATE AlunosSala.alunos
+SET Favorites = 'sim'
+WHERE id IN (7, 11, 19, 4, 2, 27, 17, 24);
+UPDATE AlunosSala.alunos
+SET Favorites = 'não'
+WHERE id NOT IN (7, 11, 19, 4, 2, 27, 17, 24);
